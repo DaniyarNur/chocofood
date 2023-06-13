@@ -1,0 +1,173 @@
+body{
+    margin: 0 auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(237, 237, 237);
+}
+
+h1{
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.wallet{
+    background-color: white;
+    text-align: center;
+    width: 650px;
+    height: 500px;
+    margin-top: 70px;
+    border-radius: 10px;
+    border: none;
+    overflow-y: scroll;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 5px 5px rgb(65, 63, 63);
+}
+.main-content{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-content-items{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description{
+    border-radius: 5px;
+    background-color: rgb(237, 237, 237);
+    width: 370px;
+    height: 50px;
+}
+.description-transaction{
+    float: left;
+    margin-left: 20px;
+}
+.transaction-number{
+    float: right;
+    margin-right: 20px;
+}
+
+.wallet-data input{
+    width: 370px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(237, 237, 237);
+    border: none;
+}
+
+.wallet-data label{
+    float: left;
+    margin-left: 130px;
+}
+
+.wallet-date input{
+    width: 90px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    float: left;
+    margin-left: -105px;
+    margin-top: 20px;
+    background-color: rgb(237, 237, 237);
+}
+
+.wallet-date label {
+    float: left;
+    margin-left: 130px;
+}
+
+.wallet-cvv input{
+    width: 90px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    float: left;
+    margin-top: 20px;
+    margin-left: -30px;
+    background-color: rgb(237, 237, 237);
+}
+
+.wallet-cvv input:active{
+    color: #ff9000 !important; 
+transition: color 9999999s
+}
+
+.wallet-cvv label{
+    float: left;
+    margin-left: 10px;
+}
+
+.rules{
+    margin-top: 40px;
+    width: 330px;
+    height: 100px;
+    margin-left: 130px;
+    margin-top: 120px;
+    list-style: none;
+}
+
+li{
+    position: relative;
+}
+.rules p{
+    font-size: 14px;
+}
+
+.checkbox-1{
+    margin-left: -40px;
+}
+
+.checkbox-1 span{
+    color: green;
+}
+
+.checkbox-1 input{
+    float: left;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(237, 237, 237);
+}
+
+.checkbox-1 p {
+    text-align: left;
+    align-items: center;
+}
+
+.checkbox-2{
+    margin-left: -40px;
+}
+
+.checkbox-2 input{
+    float: left;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(237, 237, 237);
+}
+
+.checkbox-2 p {
+    text-align: left;
+    align-items: center;
+}
+
+.pay-button button{
+    width: 370px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(21, 194, 61);
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer img{
+    padding-left: 30px;
+}

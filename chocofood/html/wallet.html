@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меню - Chocofood.kz</title>
+    <link rel="stylesheet" href="../css/wallet.css">
+</head>
+<body>
+
+    <div class="wallet">
+        <h1>Оплата покупки</h1>
+        
+        <form action="wallet.php" method="post" class="main-content">
+            
+            <div class="main-content-items description">
+                <div class="description">
+                    <p class="description-transaction">Номер платежа</p>
+                    <p class="transaction-number">127829983</p>
+                </div>
+            </div>
+
+            <div class="main-content-items">
+                <div class="wallet-data">
+                    <label class="wallet-username-label">Имя владельца</label> <br>
+                    <input type="text" name="name" class="wallet-username-value">
+                </div>
+            </div>
+
+            <div class="main-content-items">
+                <div class="wallet-data">
+                    <label class="wallet-number-label">Номер карты</label> <br>
+                    <input type="text" name="creditcard" class="wallet-number-value">
+                </div>
+            </div>
+
+            <div class="main-content-items date-cvv">
+                <div class="wallet-date">
+                    <label class="wallet-date-label">Срок действия</label>
+                    <input type="text" name="date" class="wallet-date-value">
+                </div>
+                <div class="wallet-cvv">
+                    <label class="wallet-cvv-label">CVV</label>
+                    <input type="text" name="cvv" class="wallet-cvv-value">
+                </div>
+            </div>
+
+            <div class="main-content-items">
+                <ul class="rules">
+                    <li class="checkbox-1">
+                        <input type="checkbox">
+                        <p>Нажимая на кнопку оплатить, я соглашаюсь с условиями <span>оферты</span></p>
+                    </li>
+                    <li class="checkbox-2">
+                        <input type="checkbox">
+                        <p>Отправить квитанция на почту</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="main-content-items">
+                <div class="pay-button">
+                    <button type="submit" >Оплатить 5300 т</button>
+                </div>
+            </div>
+
+            <div class="main-content-items">
+                <div class="footer">
+                    <img style="width: 50px" class="logo visa" src="../images/logo_1.png">
+                    <img style="width: 50px" class="logo mastercard" src="../images/logo_2.png">
+                    <img style="width: 50px"class="logo pci" src="../images/logo_3.png">
+                    <img style="width: 50px"class="logo ssl" src="../images/logo_4.png">
+                </div>
+            </div>
+
+            <div class="main-content-items">
+                <!-- <img class="logo-jetpay" src="../images/"> -->
+            </div>
+
+
+        </form>
+
+    </div>
+
+    
+</body>
+</html>

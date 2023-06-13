@@ -1,0 +1,356 @@
+body{
+    margin: 0 auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(237, 237, 237);
+}
+
+/* .before-top-bar */
+
+.before-top-bar{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.before-top-bar .left-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+}
+
+.left-bar-card{
+    text-align: center;
+    padding: 0px 5px 5px 0;
+    font-size: 9px;
+    color:rgb(75, 75, 75);
+}
+
+.left-bar-card p{
+    padding: 5px 5px 5px 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    font-weight: 450;
+}
+
+.left-bar-card .project-name{
+    font-size: 12px;
+}
+
+.right-bar{
+    margin-left: 430px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.right-bar p{
+    font-size: 12px;
+    color:rgb(75, 75, 75);
+
+}
+
+.right-bar button{
+    margin-left: 10px;
+    background-color: rgb(21, 194, 61);
+    border-style: none;
+    border-radius: 20px;
+    width: 70px;
+    padding: 5px 5px 5px 5px;
+    color:rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* top-bar */
+.top-bar{
+    background-color: rgb(209, 37, 37);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.top-bar-left{
+    margin-left: 250px;
+    display: flex;
+    flex-direction: row;
+}
+
+.top-bar-left-menu img{
+    width: 15px;
+}
+
+.top-bar-left-location img{
+    width: 15px;
+    margin-left: 10px;
+}
+
+.top-bar-left button{
+    margin-left: 10px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 600;
+    width: 140px;
+    height: 20px;
+}
+
+.top-bar-center img{
+    width: 180px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+}
+
+.top-bar-right button{
+    margin-left: 360px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    width: 50px;
+    height: 20px;
+}
+
+/* main-search */
+
+.main-search{
+    padding-left: 300px;
+    padding-right: 200px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(145, 26, 26);
+    height: 80px;
+}
+.main-search form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main-search-input{
+    width: 450px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 20px #272727;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+    
+}
+
+.main-search-input input{
+    border-style: none;
+    width: 300px;
+    padding: 5px;
+    font-size: 12px;
+    align-items: center;
+}
+.main-search-input img{
+    width: 12px;
+   padding-left: 10px;
+   padding-right: 5px;
+}
+
+.main-search button{
+    background-color: rgb(21, 194, 61);
+    box-shadow: 5px 5px 20px #272727;
+    border-style: none;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+    color: white;
+    margin-left: 10px;
+    font-size: 11px;
+    font-weight: 500;
+    justify-content: center;
+}
+
+.main-search-top-requests{
+    margin-left: 30px;
+    color: rgb(192, 192, 192);
+    font-size: 12px;
+}
+.main-search-top-requests a{
+    color: white;   
+}
+
+.food-click{
+    padding-left: 300px;
+    padding-right: 350px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.food-click-food{
+    align-items: center;
+}
+
+.food-click-food img{
+    width: 60px;
+}
+
+.food-click-food p{
+    text-align: center;
+    font-size: 12px;
+    color:rgb(119, 119, 119);
+}
+
+.food-click-food p a{
+    text-align: center;
+    font-size: 12px;
+    color:rgb(119, 119, 119);
+    text-decoration-line: none;
+}
+
+.restaurants_list{
+    padding-left: 300px;
+    padding-right: 350px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.restaurants_list_item {
+    position: relative;
+    border-color: transparent;
+    border-bottom-style: 1px solid black;
+}
+
+.restaurants_list_item img{
+    width: 270px;
+    border-radius: 10px;
+}
+.raiting{
+    top: 130px;
+    position: absolute;
+    display: flex;
+    background-color: rgb(237, 237, 237);
+    border-top-right-radius: 3px;
+    align-items: center;
+    width: 50px;
+    height: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(223, 186, 38);
+}
+
+.restaurants_list_item .raiting img{
+    width: 15px;
+    padding-left: 10px;
+}
+
+.delivery_time{
+    top: 130px;
+    position: absolute;
+    display: flex;
+    background-color: rgb(237, 237, 237);
+    margin-left: 180px;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 3px;
+    font-size: 11px;
+    font-weight: 500;
+    width: 90px;
+    height: 20px;
+}
+
+.restaurants_list_item-other-info{
+    top: 150px;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    display: flex;
+    background-color: rgb(237, 237, 237);
+}
+
+.restaurants_list_item-other-info .logo{
+    font-size: 18px;
+    font-weight: 600;
+    /* padding-left: 10px; */
+    padding-top: 10px;
+    color:rgb(75, 75, 75);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.restaurants_list_item-other-info .logo span{
+    color:rgb(119, 119, 119);
+    padding-left: 10px;
+}
+
+.restaurants_list_item-other-info .logo .name{
+    color:rgb(59, 59, 59);
+    padding-left: 10px;
+}
+
+
+.restaurants_list_item .logo .delivery_price{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.restaurants_list_item .logo .delivery_price svg{
+    /* padding: 5px 5px 5px 5px; */
+    width: 25px;
+    height: 18px;;
+}
+
+.main-text{
+    padding-left: 300px;
+    padding-right: 350px;
+    padding-top: 50px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+footer{
+    background-color: rgb(209, 37, 37); 
+    padding-top: 50px;
+}
+
+.footer-logo {
+    padding-left: 300px;
+    padding-right: 350px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 11px;
+}
+
+.footer-logo img{
+    width: 200px;
+}
+
+.footer-columns{
+    padding-left: 260px;
+    padding-right: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+
+
+
+.footer-columns-item li{ 
+    list-style: none;
+    font-size: 11px;
+    
+}
+
+
+
